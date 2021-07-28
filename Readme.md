@@ -3,7 +3,8 @@
 This example shows how to add a custom component to a Detail View. We add a button to a Detail View and display a message when a user clicks the button.
 
 1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates @Microsoft.AspNetCore.Components.RenderFragment, and handle the **Click** event. 
-[Razor Component](./CS/MySolution.Module.Blazor/ButtonRenderer.razor)
+
+**Razor Component** - [./CS/MySolution.Module.Blazor/ButtonRenderer.razor](./CS/MySolution.Module.Blazor/ButtonRenderer.razor)
  
 2. Ensure that the component's [Build Action](https://docs.microsoft.com/en-us/visualstudio/ide/build-actions) property is set to **Content**.
 
