@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Contact_DetailView">
+      <Items>
+        <ButtonDetailViewItemBlazor Id="MyButton" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="51.63265306122449">
+            <LayoutGroup Id="Person" Index="0" RelativeSize="47.82608695652174">
+              <LayoutGroup Id="Person_col1" RelativeSize="50">
+                <LayoutItem Id="FirstName" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="LastName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" RelativeSize="36.36363636363637" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="50">
+                <LayoutItem Id="Birthday" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="FullName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="Email" RelativeSize="36.36363636363637" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutItem Id="MyButton" ViewItem="MyButton" Index="1" RelativeSize="9.486166007905139" IsNewNode="True" />
+            <LayoutGroup Id="Party" RelativeSize="42.687747035573125">
+              <LayoutItem Id="Photo" RelativeSize="27.77777777777778" />
+              <LayoutItem Id="Address1" RelativeSize="22.22222222222222" />
+              <LayoutItem Id="Address2" RelativeSize="22.22222222222222" />
+              <LayoutItem Id="DisplayName" RelativeSize="27.77777777777778" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="PhoneNumbers_Group" Direction="Vertical" RelativeSize="48.36734693877551">
+            <LayoutItem Id="PhoneNumbers" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
