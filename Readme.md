@@ -29,3 +29,7 @@ This example shows how to add a custom component to a Detail View. We add a butt
 7. Override the [BreakLinksToControls](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.ListEditor.BreakLinksToControls) method. In this method, unsubscribe from the component model’s **Click** event to release resources.
 
    **Custom View Item** - [./CS/MySolution.Module.Blazor/ButtonDetailViewItemBlazor.cs](./CS/MySolution.Module.Blazor/ButtonDetailViewItemBlazor.cs).
+   
+   See the following help topic for more information: [How to: Use a Custom View Item to Add a Button to a Detail View](https://docs.devexpress.com/eXpressAppFramework/113653/ui-construction/view-items-and-property-editors/how-to-add-a-button-to-a-detail-view-using-custom-view-item)
+
+   
