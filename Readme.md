@@ -16,7 +16,7 @@ This example shows how to add a custom component to a Detail View. We add a butt
 
 5. Override the **CreateControlsCore** method to get a **ButtonHolder** instance. **ButtonHolder** returns a render fragment with our custom component. Note that in the XAF Blazor application, **CreateControlsCore** should return an instance that implements the **IComponentContentHolder** interface.
 
-6. Override the **OnControlsCreated** method. In this method, subscribe to the component model’s **Click** event. Implement the required logic in the **ComponentModel_Click** event handler (In our example, the [ShowMessage](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ShowViewStrategyBase.ShowMessage(System.String-DevExpress.ExpressApp.InformationType-System.Int32-DevExpress.ExpressApp.InformationPosition) is called). 
+6. Override the **OnControlsCreated** method. In this method, subscribe to the component model’s **Click** event. Implement the required logic in the **ComponentModel_Click** event handler (In our example, the [ShowMessage](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ShowViewStrategyBase.ShowMessage(System.String-DevExpress.ExpressApp.InformationType-System.Int32-DevExpress.ExpressApp.InformationPosition)) is called). 
 
 7. Override the [BreakLinksToControls](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.ListEditor.BreakLinksToControls) method. In this method, unsubscribe from the component model’s **Click** event to release resources.
 
