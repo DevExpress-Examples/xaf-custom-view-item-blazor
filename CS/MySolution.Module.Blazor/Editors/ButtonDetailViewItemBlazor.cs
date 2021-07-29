@@ -4,6 +4,7 @@ using DevExpress.ExpressApp.Blazor;
 using DevExpress.ExpressApp.Editors;
 using DevExpress.ExpressApp.Model;
 using Microsoft.AspNetCore.Components;
+using MySolution.Module.Blazor.Editors;
 
 namespace MySolution.Module.Blazor
 {
