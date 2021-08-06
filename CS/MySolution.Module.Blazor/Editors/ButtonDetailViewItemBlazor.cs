@@ -5,6 +5,7 @@ using DevExpress.ExpressApp.Editors;
 using DevExpress.ExpressApp.Model;
 using Microsoft.AspNetCore.Components;
 using MySolution.Module.Blazor.Editors;
+using DevExpress.ExpressApp.Blazor.Components;
 
 namespace MySolution.Module.Blazor
 {
@@ -17,7 +18,7 @@ namespace MySolution.Module.Blazor
                 ComponentModel = componentModel;
             }
             public ButtonModel ComponentModel { get; }
-            RenderFragment IComponentContentHolder.ComponentContent => ButtonRenderer.Create(ComponentModel);
+            RenderFragment IComponentContentHolder.ComponentContent => ComponentModelObserver.Create(ComponentModel, ButtonRenderer.Create(ComponentModel));
         }
         private XafApplication application;
         public ButtonDetailViewItemBlazor(IModelViewItem model, Type objectType) : base(objectType, model.Id) { }
