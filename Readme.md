@@ -1,16 +1,16 @@
+# XAF Blazor - Use a Custom View Item to Add a Button to a Detail View
+
+This example shows how to add a custom component to a Detail View. We add a button to a Detail View and display a message when a user clicks the button.
+
+![](./images/blazor-custom-view-button.png)
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look at
 
 * [ButtonRenderer.razor](./CS/MySolution.Module.Blazor/Editors/ButtonRenderer.razor)
 * [ButtonModel.cs](./CS/MySolution.Module.Blazor/Editors/ButtonModel.cs)
 * [ButtonDetailViewItemBlazor.cs](./CS/MySolution.Module.Blazor/Editors/ButtonDetailViewItemBlazor.cs)
 <!-- default file list end -->
-
-# How to: Use a Custom View Item to Add a Button to a Detail View
-
-This example shows how to add a custom component to a Detail View. We add a button to a Detail View and display a message when a user clicks the button.
-
-![](./images/blazor-custom-view-button.png)
 
 1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates @Microsoft.AspNetCore.Components.RenderFragment, and handle the **Click** event. 
 
