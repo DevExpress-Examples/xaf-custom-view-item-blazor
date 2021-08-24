@@ -1,16 +1,18 @@
+# XAF Blazor - Use a Custom View Item to Add a Button to a Detail View
+
+This example shows how to add a custom component to a Detail View. We add a button to a Detail View and display a message when a user clicks the button.
+
+![](./images/blazor-custom-view-button.png)
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look at
 
 * [ButtonRenderer.razor](./CS/MySolution.Module.Blazor/Editors/ButtonRenderer.razor)
 * [ButtonModel.cs](./CS/MySolution.Module.Blazor/Editors/ButtonModel.cs)
 * [ButtonDetailViewItemBlazor.cs](./CS/MySolution.Module.Blazor/Editors/ButtonDetailViewItemBlazor.cs)
 <!-- default file list end -->
 
-# How to: Use a Custom View Item to Add a Button to a Detail View
-
-This example shows how to add a custom component to a Detail View. We add a button to a Detail View and display a message when a user clicks the button.
-
-![](./images/blazor-custom-view-button.png)
+## Implementation Details
 
 1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates @Microsoft.AspNetCore.Components.RenderFragment, and handle the **Click** event. 
 
@@ -32,6 +34,13 @@ This example shows how to add a custom component to a Detail View. We add a butt
 
    **Custom View Item** - [./CS/MySolution.Module.Blazor/Editors/ButtonDetailViewItemBlazor.cs](./CS/MySolution.Module.Blazor/Editors/ButtonDetailViewItemBlazor.cs).
    
-   See the following help topic for more information: [How to: Use a Custom View Item to Add a Button to a Detail View](https://docs.devexpress.com/eXpressAppFramework/113653/ui-construction/view-items-and-property-editors/how-to-add-a-button-to-a-detail-view-using-custom-view-item)
+See the following help topic for more information: [How to: Use a Custom View Item to Add a Button to a Detail View](https://docs.devexpress.com/eXpressAppFramework/113653/ui-construction/view-items-and-property-editors/how-to-add-a-button-to-a-detail-view-using-custom-view-item).
 
-   
+## Documentation
+
+* [Using a Custom Control that is not Integrated by Default](https://docs.devexpress.com/eXpressAppFramework/113610/ui-construction/using-a-custom-control-that-is-not-integrated-by-default/using-a-custom-control-that-is-not-integrated-by-default)
+* [How to: Implement a View Item](https://docs.devexpress.com/eXpressAppFramework/112641/ui-construction/view-items-and-property-editors/how-to-implement-a-view-item)
+
+## More Examples
+
+[XAF - Add a Custom Button to a Form (WinForms and ASP.NET WebForms)](https://github.com/DevExpress-Examples/XAF_how-to-add-a-button-to-a-form-using-custom-view-item-t137443)
