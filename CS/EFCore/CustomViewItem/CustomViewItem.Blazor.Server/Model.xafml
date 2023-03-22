@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems NavigationStyle="Accordion" />
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views DefaultListEditor="DevExpress.ExpressApp.Blazor.Editors.DxGridListEditor">
+    <DetailView Id="Contact_DetailView">
+      <Items>
+        <ButtonDetailViewItemBlazor Id="myButton1" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Contact" RelativeSize="100">
+              <LayoutItem Id="FirstName" RelativeSize="2.4417314095449503" />
+              <LayoutItem Id="LastName" RelativeSize="1.7758046614872365" />
+              <LayoutItem Id="Age" RelativeSize="1.7758046614872365" />
+              <LayoutItem Id="BirthDate" RelativeSize="1.7758046614872365" />
+              <LayoutItem Id="myButton1" ViewItem="myButton1" Index="4" RelativeSize="92.23085460599334" IsNewNode="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

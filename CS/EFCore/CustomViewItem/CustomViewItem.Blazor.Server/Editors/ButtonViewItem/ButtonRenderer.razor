@@ -1,0 +1,11 @@
+﻿@using DevExpress.Blazor
+@namespace MySolution.Module.Blazor
+
+<DxButton Text=@ComponentModel.Text Click=@(() => ComponentModel.ClickFromUI()) />
+
+@code {
+    [Parameter]
+    public ButtonModel ComponentModel { get; set; }
+    public static RenderFragment Create(ButtonModel componentModel) =>
+        @<ButtonRenderer ComponentModel=@componentModel />;
+}
