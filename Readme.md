@@ -9,14 +9,6 @@ This example shows how to add a custom component to a Detail View. We add a butt
 
 ![](./images/blazor-custom-view-button.png)
 
-<!-- default file list -->
-## Files to Look at
-
-* [ButtonRenderer.razor](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonRenderer.razor)
-* [ButtonModel.cs](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonModel.cs)
-* [ButtonDetailViewItemBlazor.cs](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonDetailViewItemBlazor.cs)
-<!-- default file list end -->
-
 ## Implementation Details
 
 1. In the ASP.NET Core Blazor Module project, create a new [Razor component](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/) and name it **ButtonRenderer**. In this component, configure the [DxButton](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxButton) component, add the **Create** method that creates [RenderFragment](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.components.renderfragment), and handle the **Click** event. 
@@ -40,6 +32,14 @@ This example shows how to add a custom component to a Detail View. We add a butt
    **Custom View Item** - [CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonDetailViewItemBlazor.cs](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonDetailViewItemBlazor.cs).
    
 See the following help topic for more information: [How to: Use a Custom View Item to Add a Button to a Detail View](https://docs.devexpress.com/eXpressAppFramework/113653/ui-construction/view-items-and-property-editors/how-to-add-a-button-to-a-detail-view-using-custom-view-item).
+
+<!-- default file list -->
+## Files to Look at
+
+* [ButtonRenderer.razor](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonRenderer.razor)
+* [ButtonModel.cs](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonModel.cs)
+* [ButtonDetailViewItemBlazor.cs](./CS/EFCore/CustomViewItem/CustomViewItem.Blazor.Server/Editors/ButtonViewItem/ButtonDetailViewItemBlazor.cs)
+<!-- default file list end -->
 
 ## Documentation
 
