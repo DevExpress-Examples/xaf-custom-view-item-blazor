@@ -19,6 +19,7 @@
     <PackageReference Include="DevExpress.Persistent.Base" Version="21.1.6" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.6" />
  <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.2" />
+<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MySolution.Module\MySolution.Module.csproj">
