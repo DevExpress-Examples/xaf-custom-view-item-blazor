@@ -5,6 +5,7 @@ using DevExpress.ExpressApp.Blazor.Components.Models;
 using DevExpress.ExpressApp.Editors;
 using DevExpress.ExpressApp.Model;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace CustomViewItem.Blazor.Server.Editors.ButtonViewItem;
 
@@ -16,6 +17,8 @@ public class ButtonDetailViewItemBlazor(IModelViewItem model, Type objectType) :
     IComponentContentHolder, 
     IComplexViewItem
 {
+    public ButtonModel ComponentModel => componentModel;
+    
     private ButtonModel componentModel;
     private XafApplication application;
 
@@ -29,7 +32,7 @@ public class ButtonDetailViewItemBlazor(IModelViewItem model, Type objectType) :
         componentModel = new ButtonModel
         {
             Text = "Click me!",
-            Click = EventCallback.Factory.Create(this, ComponentModel_Click),
+            Click = EventCallback.Factory.Create<MouseEventArgs>(this, ComponentModel_Click),
         };
         return componentModel;
     }

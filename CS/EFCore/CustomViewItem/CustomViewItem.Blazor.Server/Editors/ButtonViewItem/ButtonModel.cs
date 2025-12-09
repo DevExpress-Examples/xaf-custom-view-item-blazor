@@ -1,5 +1,6 @@
 ﻿using DevExpress.ExpressApp.Blazor.Components.Models;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace CustomViewItem.Blazor.Server.Editors.ButtonViewItem;
 
@@ -8,8 +9,8 @@ public class ButtonModel : ComponentModelBase {
         get => GetPropertyValue<string>();
         set => SetPropertyValue(value);
     }
-    public EventCallback Click {
-        get => GetPropertyValue<EventCallback>();
+    public EventCallback<MouseEventArgs> Click {
+        get => GetPropertyValue<EventCallback<MouseEventArgs>>();
         set => SetPropertyValue(value);
     }
 
