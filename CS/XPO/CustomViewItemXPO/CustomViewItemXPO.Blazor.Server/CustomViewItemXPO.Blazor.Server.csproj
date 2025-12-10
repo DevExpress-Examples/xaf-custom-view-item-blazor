@@ -18,9 +18,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Editors\ButtonViewItem\ButtonRenderer.razor" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="25.2.1-alpha-25302" />
     <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.2.1-alpha-25302" />
   </ItemGroup>

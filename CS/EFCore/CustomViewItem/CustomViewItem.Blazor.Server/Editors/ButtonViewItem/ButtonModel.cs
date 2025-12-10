@@ -1,15 +1,18 @@
-﻿using System;
-using DevExpress.ExpressApp.Blazor.Components.Models;
+﻿using DevExpress.ExpressApp.Blazor.Components.Models;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
-namespace MySolution.Module.Blazor {
-    public class ButtonModel : ComponentModelBase {
-        public string Text {
-            get => GetPropertyValue<string>();
-            set => SetPropertyValue(value);
-        }
-        public void ClickFromUI() {
-            Click?.Invoke(this, EventArgs.Empty);
-        }
-        public event EventHandler Click;
+namespace CustomViewItem.Blazor.Server.Editors.ButtonViewItem;
+
+public class ButtonModel : ComponentModelBase {
+    public string Text {
+        get => GetPropertyValue<string>();
+        set => SetPropertyValue(value);
     }
+    public EventCallback<MouseEventArgs> Click {
+        get => GetPropertyValue<EventCallback<MouseEventArgs>>();
+        set => SetPropertyValue(value);
+    }
+
+    public override Type ComponentType => typeof(Button);
 }

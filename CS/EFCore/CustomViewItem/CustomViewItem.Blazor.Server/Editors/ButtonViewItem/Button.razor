@@ -1,0 +1,10 @@
+﻿@namespace CustomViewItem.Blazor.Server.Editors.ButtonViewItem
+
+<DxButton Text=@Text Click=@Click />
+
+@code {
+    [Parameter]
+    public string Text { get; set; }
+    [Parameter]
+    public EventCallback<MouseEventArgs> Click { get; set; }
+}
