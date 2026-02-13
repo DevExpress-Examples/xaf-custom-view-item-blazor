@@ -28,7 +28,7 @@ For detailed instructions, refer to the following topic: [How to Add an Unbound 
 
 [XAF WinForms - Add an Unbound Control (Button) to the Form Layout in an XAF View (with a Fully Custom ViewItem)](https://github.com/DevExpress-Examples/xaf-win-add-custom-button-to-form-using-custom-view-item)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-custom-view-item-blazor&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-custom-view-item-blazor&~~~was_helpful=no)
 
