@@ -51,7 +51,7 @@ See the following help topic for more information: [How to: Use a Custom View It
 
 [XAF - Add a Custom Button to a Form (WinForms and ASP.NET WebForms)](https://github.com/DevExpress-Examples/XAF_how-to-add-a-button-to-a-form-using-custom-view-item-t137443)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-custom-view-item-blazor&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=xaf-custom-view-item-blazor&~~~was_helpful=no)
 
